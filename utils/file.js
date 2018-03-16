@@ -12,7 +12,7 @@ exports.eachFileSync = function(dir, callback) {
 
 /** 
  * 文件遍历方法 
- * @param filePath 需要遍历的文件路径 
+ * @param dir 需要遍历的文件路径 
  */  
 function fileDisplay(dir){
 	var checks = []
