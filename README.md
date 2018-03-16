@@ -62,7 +62,7 @@ Configuration
 -------------
 The plugin allowed values are as follows:
 
-- `buildPath`: 需要上传的文件路径,支持整个文件夹的遍历。支持node-glob风格路径，具体可以参见[node-glob的文档](https://github.com/isaacs/node-glob)。
+- `buildPath`: 需要上传的文件路径,支持文件夹递归遍历以获取所有文件。支持node-glob风格路径，具体可以参见[node-glob的文档](https://github.com/isaacs/node-glob)。
 - `region`: oss的区域，如:oss-cn-shanghai。
 - `accessKeyId`: 阿里云的权限访问的key。
 - `accessKeySecret`: 阿里云的权限访问的secret。
